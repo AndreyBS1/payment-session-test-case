@@ -29,6 +29,5 @@
   },
 
   // Hints
-  "editor.suggest.preview": true,
-  "editor.acceptSuggestionOnEnter": "off"
+  "editor.suggest.preview": true
 }
