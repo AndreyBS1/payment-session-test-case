@@ -7,7 +7,7 @@ export const getSession = async () => {
   const isSessionCreated = localStorage.getItem('is-session-created')
 
   if (isSessionCreated !== 'true') {
-    throw new Error('Session does not exist')
+    return null
   }
 
   const startedAt = getTimestamp('session-started-at')
