@@ -22,7 +22,7 @@ export const getSession = async () => {
     paymentAddress: '0x',
     // paymentQr: '',
     paymentAmount: 10,
-    startedAt,
-    lastPaymentCheckAt,
+    startedAt, // number (if started) | null (if created, but not started)
+    lastPaymentCheckAt, // number | null
   }
 }
